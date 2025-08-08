@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="Styles/Calculator.css">
+</head>
+
+<body>
+  <div class="calculator-body">
+    <p class="js-display display"></p>
+    <p class="js-error error">Incomplete expression.</p>
+
+    <p>
+      <button class="number-button" onclick="calculate('1');">1</button>
+
+      <button class="number-button" onclick="calculate('2');">2</button>
+
+      <button class="number-button" onclick="calculate('3');">3</button>
+
+      <button class="operation-button" onclick="calculate(' + ');">+</button>
+    </p>
+
+    <p>
+      <button class="number-button" onclick="calculate('4');">4</button>
+
+      <button class="number-button" onclick="calculate('5');">5</button>
+
+      <button class="number-button" onclick="calculate('6');">6</button>
+
+      <button class="operation-button" onclick="calculate(' - ');">-</button>
+    </p>
+
+    <p>
+      <button class="number-button" onclick="calculate('7');">7</button>
+
+      <button class="number-button" onclick="calculate('8');">8</button>
+
+      <button class="number-button" onclick="calculate('9');">9</button>
+
+      <button class="operation-button" onclick="calculate(' * ');">*</button>
+    </p>
+
+    <p>
+      <button class="number-button" onclick="calculate('0');">0</button>
+
+      <button class="number-button" onclick="calculate('.');">.</button>
+
+      <button class="number-button" onclick="calculate('=');">=</button>
+
+      <button class="operation-button" onclick="calculate(' / ');">/</button>
+    </p>
+
+    <button class="clear-button" onclick="calculate('clear');">Clear</button>
+  </div>
+
+  <script src="Scripts/Calculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+  <div class="overlay overlay-hidden js-overlay">
+    <div class="reset-score-confirmation">
+      <p class="reset-score-question">
+        Are you sure you want to reset score?
+      </p>
+      <div class="reset-score-confirmation-button-row">
+        <button class="reset-score-button js-reset-score-button-yes">Yes</button>
+        <button class="reset-score-button js-reset-score-button-no">No</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <p class="title">Rock Paper Scissors</p>
+
+    <div>
+      <button class="js-rock-button play-button">
+        <img src="Emojies/rock-emoji.png">
+      </button>
+
+      <button class="js-paper-button play-button">
+        <img src="Emojies/paper-emoji.png">
+      </button>
+
+      <button class="js-scissors-button play-button">
+        <img src="Emojies/scissors-emoji.png">
+      </button>
+    </div>
+
+    <p class="js-result result"></p>
+    <div class="js-choice-row choice-row"></div>
+    <p class="js-score-text score"></p>
+
+    <button class="js-reset-button reset-button">Reset Score</button>
+  </main>
+
+  <script src="Scripts/rock-paper-scissors.js"></script>
+</body>
+
+</html>
