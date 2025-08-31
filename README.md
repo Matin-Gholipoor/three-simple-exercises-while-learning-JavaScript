@@ -28,3 +28,18 @@ This repository contains **my own implementations** created for practice and lea
 This repository is for educational purposes only. I do not claim ownership of the original ideas or course content.  
 
 Each exercise will have its **own README** file with more details.  
+
+## 🚀 Getting Started
+
+To run projects locally:
+
+1. Clone the repository
+2. For each project run `index.html` using a local server (e.g., Live Server)
+3. Explore the JS functionality
+
+
+To run each project on Github click the related link below:
+
+- [Calculator](https://matin-gholipoor.github.io/three-simple-exercises-while-learning-JavaScript/Calculator/calculator.html) 
+- [Rock Paper Scissors](https://matin-gholipoor.github.io/three-simple-exercises-while-learning-JavaScript/rock-paper-scissors/rock-paper-scissors.html) 
+- [Todo List](https://matin-gholipoor.github.io/three-simple-exercises-while-learning-JavaScript/ToDo%20List/ToDo%20List.html)
